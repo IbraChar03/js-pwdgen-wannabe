@@ -10,5 +10,9 @@ console.log(cognome);
 let colore= prompt("Inserisci il tuo colore");
 console.log(colore);
 
+// numero 21
+const num= 21;
+console.log(num);
+
 // password
-document.getElementById("psw-generator").innerHTML= `La tua password è ${nome}${cognome}${colore}21`
+document.getElementById("psw-generator").innerHTML= `La tua password è ${nome}${cognome}${colore}${num}`
